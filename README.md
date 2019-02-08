@@ -4,6 +4,10 @@ This is a D3 v5 rendition of the [D3 Gantt Chart](https://codepen.io/jey/pen/jmC
 
 I am using this Gantt Chart as a basis for a personal project and decided to make this example compatible with D3.js v5 and to make this example public since D3 v5 examples are hard to find at the moment.
 
+## Demo
+
+Right now a demo is available by clicking [here](https://arvidlb.github.io/D3V5-GanttChart/demoindex.html).
+
 ## Changes
 
 The original example is based on D3.js v3 and so a few changes had to be made to make this work with D3 v5:
