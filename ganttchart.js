@@ -160,8 +160,6 @@ var bigRects = svg.append("g")
      .data(theArray)
      .enter();
 
-  console.log(timeScale(dateFormat("2013-2-6")) - timeScale(dateFormat("2013-2-6")))
-
    var innerRects = rectangles.append("rect")
              .attr("rx", 3)
              .attr("ry", 3)
