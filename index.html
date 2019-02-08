@@ -3,20 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>title</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="ganttchart.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script>
-    	if (window.attachEvent) {window.attachEvent('onload', makeGant(taskArray, w, h));}
-		else if (window.addEventListener) {window.addEventListener('load', makeGant(taskArray, w, h), false);}
-		else {document.addEventListener('load', makeGant(taskArray, w, h), false);}
-	</script>
   </head>
   <body>
   	<div id = "container">
 		<div class = "svg"></div>
 		<div id = "tag"></div>
 	</div>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="ganttchart.js"></script>
+    <script>
+		if (window.attachEvent) {window.attachEvent('onload', makeGant(taskArray, w, h));}
+		else if (window.addEventListener) {window.addEventListener('load', makeGant(taskArray, w, h), false);}
+		else {document.addEventListener('load', makeGant(taskArray, w, h), false);}
+	</script>
   </body>
 </html>
