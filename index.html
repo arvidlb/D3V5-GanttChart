@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script>
-    	window.onload = makeGant(taskArray, w, h);
+    	if (window.attachEvent) {window.attachEvent('onload', makeGant(taskArray, w, h));}
+		else if (window.addEventListener) {window.addEventListener('load', makeGant(taskArray, w, h), false);}
+		else {document.addEventListener('load', makeGant(taskArray, w, h), false);}
 	</script>
   </head>
   <body>
